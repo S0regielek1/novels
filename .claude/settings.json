@@ -1,0 +1,15 @@
+{
+  "autoMemoryEnabled": false,
+  "claudeMdExcludes": [
+    "**/.claude/CLAUDE.md",
+    "**/.claude/rules/**"
+  ],
+  "permissions": {
+    "blockReadsOutsideWorkingDirectories": true,
+    "deny": [
+      "Read(~/.claude/**)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
